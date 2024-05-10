@@ -72,6 +72,7 @@ button {
 
 .black {
     color: #1F2937;
+    text-justify: center;
 }
 
 .heading {
@@ -82,16 +83,12 @@ button {
 
 .two {
     color: #1F2937;
-    margin: 50px;
+    margin-top: 50px;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
-}
-
-.black {
-    text-justify: center;
 }
 
 .logo {
@@ -112,7 +109,6 @@ a {
 }
 
 .name {
-    border: 5px solid red;
     font-weight: bolder;
     display: flex;
     justify-content: flex-end;
@@ -125,12 +121,13 @@ a {
     justify-content: center;
     align-items: center;
     height: 800px;
+    gap: 20px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    width: 1500px;
+    width: 1200px;
 }
 
 
@@ -149,4 +146,10 @@ a {
     height: 200px;
     width: 200px;
     flex-shrink: 0;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    height: 150px;
 }
