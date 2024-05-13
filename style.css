@@ -60,9 +60,17 @@ img {
     align-items: center;
 }
 
+.banner {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button {
     width: 125px;
     padding: 5px;
+    flex-shrink: 0;
 }
 
 .text {
@@ -77,6 +85,12 @@ button {
 
 .heading {
     font-size: 49px;
+    font-weight: bolder;
+    color: white;
+}
+
+.title {
+    font-size: 28px;
     font-weight: bolder;
     color: white;
 }
@@ -112,6 +126,23 @@ a {
     font-weight: bolder;
     display: flex;
     justify-content: flex-end;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text-container {
+    background-color: #3882F6;
+    width: 60%;
+    padding: 75px 200px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .quote-container {
@@ -151,5 +182,9 @@ a {
 
 .footer {
     background-color: #1F2937;
+    color: white;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
